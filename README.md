@@ -18,3 +18,25 @@ const styles = StyleSheet.create({
     
    },
 });
+
+
+
+
+
+
+app tsx 
+
+
+import { StatusBar } from "expo-status-bar";
+import { Home } from "./src/home";
+
+export default function App() {
+ return (
+  <>
+    <Home/>
+    <StatusBar style="auto" /> 
+  </>
+ );
+}
+
+
